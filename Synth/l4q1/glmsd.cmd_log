@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Synth/l4q1/glmsd.xst" -ofn "C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Synth/l4q1/glmsd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vlx25-ff668-10 glmsd.ngc glmsd.ngd  
+map -intstyle ise -p xc4vlx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o glmsd_map.ncd glmsd.ngd glmsd.pcf 
+par -w -intstyle ise -ol high -t 1 glmsd_map.ncd glmsd.ncd glmsd.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml glmsd.twx glmsd.ncd -o glmsd.twr glmsd.pcf 

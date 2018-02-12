@@ -1,0 +1,25 @@
+module tb();
+wire top;
+reg tip,trst;
+reg tclk=0;
+
+glmsd t1 (top,tip,tclk,trst);
+
+initial
+begin
+repeat (100) tclk=~tclk; #5
+trst=1; tip=1; #10
+trst=0; tip=1; #10 
+tip=0; #10 
+tip=1; #10 
+tip=0; #10 
+tip=0; #10 
+tip=1; #10 
+tip=1; #10 
+tip=1; #10 
+repeat (50) 
+begin 
+tip=$random; #10;
+end
+end
+endmodule

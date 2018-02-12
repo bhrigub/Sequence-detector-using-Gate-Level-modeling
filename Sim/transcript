@@ -1,0 +1,112 @@
+# Reading C:/questasim_10.1d/tcl/vsim/pref.tcl 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/l4q1.mpf 
+# Loading project l4q1
+# Compile of l2q7b.v was successful.
+# Compile of l4q1a.v failed with 1 errors.
+# Compile of tbl4q1.v was successful.
+# 3 compiles, 1 failed with 1 error. 
+OpenFile C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/l4q1.mpf
+project compileall
+# Compile of l2q7b.v was successful.
+# Compile of l4q1a.v failed with 1 errors.
+# Compile of tbl4q1.v was successful.
+# 3 compiles, 1 failed with 1 error. 
+project compileall
+# Compile of l2q7b.v was successful.
+# Compile of l4q1a.v was successful.
+# Compile of tbl4q1.v was successful.
+# 3 compiles, 0 failed with no errors. 
+vsim -wlf l4q1a.wlf -novopt tb
+# vsim -wlf l4q1a.wlf -novopt tb 
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.glmsd
+# Loading work.glmsd
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.dff2
+# Loading work.dff2
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(4): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d0
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(5): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d1
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(6): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d2
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(7): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d3
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(8): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d4
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(9): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d5
+# Error loading design
+# Compile of tbl4q1.v was successful.
+# Compile of l2q7b.v was successful.
+# Compile of l4q1a.v was successful.
+# Compile of tbl4q1.v was successful.
+# 3 compiles, 0 failed with no errors. 
+project compileall
+# Compile of l2q7b.v was successful.
+# Compile of l4q1a.v was successful.
+# Compile of tbl4q1.v was successful.
+# 3 compiles, 0 failed with no errors. 
+vsim -wlf l4q1a.wlf -novopt tb
+# vsim -wlf l4q1a.wlf -novopt tb 
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.glmsd
+# Loading work.glmsd
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.dff2
+# Loading work.dff2
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(4): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d0
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(5): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d1
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(6): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d2
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(7): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d3
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(8): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d4
+# ** Error: (vsim-3053) C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Src/l4q1a.v(9): Illegal output or inout port connection for "port 'op'".
+# 
+#         Region: /tb/t1/d5
+# Error loading design
+project compileall
+# Compile of l2q7b.v was successful.
+# Compile of l4q1a.v was successful.
+# Compile of tbl4q1.v was successful.
+# 3 compiles, 0 failed with no errors. 
+vsim -wlf l4q1a.wlf -novopt tb
+# vsim -wlf l4q1a.wlf -novopt tb 
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.tb
+# Loading work.tb
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.glmsd
+# Loading work.glmsd
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab4/Q1/Sim/work.dff2
+# Loading work.dff2
+add wav e*
+# (vish-4014) No objects found matching 'e*'.
+add wave *
+run
+run 200
+# ** Error: VSIM license lost; attempting to re-establish.
+# FATAL ERROR: Unable to kill and restart license manager process.
